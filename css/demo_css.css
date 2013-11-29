@@ -1,0 +1,56 @@
+
+
+/*大家喜欢*/
+.peopleLike-section { clear:both;width: 980px; text-align:left; margin: 16px auto 60px auto;position:relative;}
+.peopleLike-section .top .top_left {float:left}
+.peopleLike-section .top .top_left h2 {font-size: 18px;color: #231F20;float: left;margin-left: 10px;letter-spacing: 0.2em;}
+.peopleLike-section .top .top_right {float:right;}
+.peopleLike-section .top .top_right a {font-size: 14px;color: #939598;float: left;margin-left:30px;}
+.peopleLike-section .top .top_right em {float:left;width:8px;height:8px;background-color:#000;margin:7px 8px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius:5px; behavior:url(../js/PIE.htc);}
+.peopleLike-section .top .top_right a:hover {text-decoration:none;color:#000}
+
+.peopleLikeLine {margin-top:33px;}
+.peopleLikeLine ins {position:absolute;z-index:-1;top:79px;left:11px;width:948px;height:16px;margin:0 3px;background:url(../images/pink_dotted.png) repeat-x}
+
+.peopleLikeBtn span {width:45px;height:57px;position:absolute;top:54px;cursor:pointer;z-index:1000;background-color:#fff;background-image:url(../images/peopleLike.png);margin-top:3px;}
+.peopleLikePre {left:0;background-position:-2px -38px;}
+.peopleLikeNext {right:0;background-position:14px -40px;}
+
+.peopleLikeSmall {position:absolute;top:56px;left:14px;z-index:1000;margin-right:0;width:28px;height:42px;padding-top:17px;cursor:pointer;background-color:#fff;}
+.peopleLikeLast {left:935px;}
+.peopleLikeSmall span {float:left;width:22px;height:22px;border:3px solid #DEBCA4;-moz-border-radius: 70px;-webkit-border-radius: 70px;border-radius:70px;}
+.peopleLikeSmall span img {width:22px;height:22px;-moz-border-radius: 70px;-webkit-border-radius: 70px;border-radius:70px;}
+.peopleLikeSmall .peopleLikeNoImg {width:5px;height:5px;margin-top:9px;}
+
+.linkToLike {width:0;height:280px;visibility:hidden;position:absolute;right:0px;top:191px;z-index:100;}
+.linkToLike a{display:block;width:140px;height:232px;text-align:center;color:#fff;position:relative;z-index:2;padding-top:48px;}
+.linkToLike a:hover {color:#fff;text-decoration:none;}
+.linkToLike i {display:block;width:101px;height:100px;background:url(../images/linkToLike.png) no-repeat;margin:0 auto;}
+.linkToLike ins {display:block;width:58px;height:55px;background:url(../images/linkToLikeBtn.png) no-repeat;margin:8px 0 0 43px;}
+.linkToLike span {display:block;width:140px;height:280px;background-color:#000;opacity:0.8;position:absolute;top:0;left:0;z-index:1;}
+
+.people_like_wrap {width:980px;height:412px;overflow:hidden;position:relative;padding-top:60px;}
+.peopleLikeList {width:11060px;}
+.peopleLikeItem {float:left;margin-right:70px;text-align:center;}
+.peopleLikeList .peopleLikeImg {display:table;width:54px;height:54px;margin:0 auto;-moz-border-radius: 70px;-webkit-border-radius: 70px;border-radius:70px;}
+.peopleLikeList .peopleLikeImg img {width:54px;height:54px;-moz-border-radius: 70px;-webkit-border-radius: 70px;border-radius:70px;}
+.peopleLikeList .peopleLikeImg span {display:table-cell;vertical-align:middle}
+.peopleLikeList dt {text-align:center;margin:12px 15px;}
+.peopleLikeList dt span {color:#fff;background-color:#DEBCA4;background-color:#fff\9;color:#DEBCA4\9;padding:4px 9px;-moz-border-radius: 30px;-webkit-border-radius: 30px;border-radius:30px;}
+.peopleLikeList dd {color:#999;text-align:center;}
+.peopleLikeList dd i {color:#444;}
+.peopleLikeList dd ins {display:inline-block;width:10px;height:7px;margin:0 5px;background:url(../images/uc.png) -153px -70px}
+.peopleLikeBox {border:1px solid #F1F2F2;margin:0 auto;margin-top:16px;}
+.peopleW280 .peopleLikeBox {width:280px;}
+.peopleW420 .peopleLikeBox {width:421px;}
+.peopleW140 .peopleLikeBox {width:140px;}
+.peopleW140 {*width:145px;}
+.peopleW280 {*width:280px;}
+.peopleW420 {*width:420px;}
+.peopleLikeBox li {float:left;position:relative;}
+.peopleLikeBox a {float:left;overflow:hidden;}
+.peopleLikeBox p {position:absolute;height:37px;margin:12px 16px;bottom:17px;overflow:hidden;z-index:100;color:#fff;}
+.peopleLikeBox span {position:absolute;height:58px;width:100%;bottom:17px;background-color:#BABABA;z-index:10;opacity:0.85;}
+.peopleLeft a {width:280px;height:280px;}
+.peopleLeft {float:left;margin-right:1px;}
+.peopleRight a {width:140px;height:140px;}
